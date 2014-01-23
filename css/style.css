@@ -1,0 +1,21 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+#content{
+	width: 100px;
+	height:600px;
+	margin: 0px auto;
+	background: #FBFBFB;
+	border:1px solid red;
+}
+#top{
+	width: 1263px;
+	
+}
+#topLeft{
+	position: relative;
+}
+#logo{
+	position: relative;
+}
