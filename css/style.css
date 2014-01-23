@@ -10,23 +10,34 @@
 	border:1px solid red;
 }
 #top{
-	width: 1263px;
-	height: 30px;
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	/*height: 30px;*/
+	margin: 0px auto;
+	border: 1px solid green;
 	
 }
-#topLeft{
-	position: relative;
-}
-#topLeft .logo{
-	position: relative;
-}
-#topLeft .logo a{
+#top .logo a{
 	display: block;
 	position: absolute;
 	top: 26px;
-	left:35px;
-	width: 280px;
-	height: 51px;
-	background: url(../image/logo.jpg);
+	width: 164px;
+	height: 50px;
+	background: url(../image/headernav_0917.png) no-repeat 0px -40px ;
 }
-
+#top .flash{
+	position: absolute;
+	top:5px;
+	left:100px;
+	border: 1px solid red;
+}
+#top .search{
+	position: absolute;
+	left:415px;
+	top:26px;
+	height: 40px;
+	width: 356px;
+	border: 1px solid red;
+	background: url(../image/headernav_0917.png) no-repeat 0px 0px ;
+}
