@@ -28,16 +28,81 @@
 }
 #top .flash{
 	position: absolute;
-	top:5px;
-	left:100px;
-	border: 1px solid red;
+	top:6px;
+	left:105px;
+	/*border: 1px solid red;*/
 }
-#top .search{
+#top .search .search_text{
+	text-indent: 10px;
+	color: #c4c4c4; 
 	position: absolute;
-	left:415px;
-	top:26px;
+	line-height: 34px;
+	border:0px;
+	left:408px;
+	top:25px;
 	height: 40px;
-	width: 356px;
-	border: 1px solid red;
+	width: 292px;
+	/*border: 1px solid red;*/
 	background: url(../image/headernav_0917.png) no-repeat 0px 0px ;
+}
+#top .search .search_btn{
+	border: 0px;
+	position: absolute;
+	height: 40px;
+	width: 70px;
+	cursor: pointer;
+	left:700px;
+	top: 25px;
+	background: url(../image/headernav_0917.png) no-repeat -290px 0px ;
+}
+#top .key{
+	position: absolute;
+	left:408px;
+	top:70px;
+}
+#top .key a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #666666;
+	
+}
+#top .key a:hover{
+	text-decoration: underline;
+}
+#top .key .key2{
+	color: #999999;
+}
+#login{
+	position: absolute;
+	right:32px;
+	top:48px;
+	/*border:1px solid red;*/
+}
+#login a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #666666;
+	
+}
+#login a:hover{
+	text-decoration: underline;
+	color: 249FF1;
+}
+#login .icon1{
+	/*display: block;*/
+	/*border:1px solid red;*/
+	width: 12px;
+	height: 12px;
+	background: url(../image/headernav_0917.png) no-repeat -255px -41px ;
+	position: absolute;
+	left:-17px;
+	top:4px;
+}
+#login .icon2{
+	width: 12px;
+	height: 12px;
+	background: url(../image/headernav_0917.png) no-repeat -255px -41px ;
+	position: absolute;
+	left:-17px;
+	top:4px;
 }
